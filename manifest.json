@@ -1,0 +1,11 @@
+{
+    "name": "Reddit Url completer",
+    "description": "An omnibox extension that enables /r to go to a subreddit. Type /r [NAME OF SUBREDDIT] and hit enter it should take you to https://reddit.com/r/subredditname",
+    "version": "0.1",
+    "manifest_version": 3,
+    "omnibox": { "keyword" : "r/" },
+    "background": {
+        "service_worker": "service.js"
+    },
+    "permissions": []
+  }
